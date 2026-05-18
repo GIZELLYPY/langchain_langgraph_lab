@@ -8,16 +8,14 @@ cd "/home/gizelly/Documents/LLM /langchain_langgraph_lab"
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install --upgrade pip
-python3 -m pip install -r experiments/requirements.txt
+python3 -m pip install -r requirements.txt
 ```
+
+This installs the core libraries used in the repo, including `langchain`, `langgraph`, `qdrant-client`, and local embedding dependencies.
 
 ## Qdrant Setup
 
-Before running the Qdrant example:
-
-```bash
-python experiments/vector_store_qdrant.py
-```
+Before running codes that uses Qdrant example
 
 you need a Qdrant server running locally.
 
